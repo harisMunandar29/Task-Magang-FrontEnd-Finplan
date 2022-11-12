@@ -233,13 +233,16 @@ export default function Register() {
 
 ### Hasilnya :
 
-![screencapture-localhost-5173-register-2022-11-11-12_53_24.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b1f19f4-4a95-4238-b6f7-3cb36b9b56fe/screencapture-localhost-5173-register-2022-11-11-12_53_24.png)
+![login1](https://user-images.githubusercontent.com/88734409/201467014-aab892e4-ae3f-42a2-a390-d3919eb02609.png)
+
 
 Ketika user memasukan email yang tidak valid, maka akan muncul sebuah warning
 
-![screencapture-localhost-5173-register-2022-11-11-12_59_15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0d6eba6-a4df-4ede-9dba-fbd4f5b85f80/screencapture-localhost-5173-register-2022-11-11-12_59_15.png)
+![login2](https://user-images.githubusercontent.com/88734409/201467036-74f1de52-9543-46ce-9fbc-848a4ee1f467.png)
 
-![screencapture-localhost-5173-register-2022-11-11-12_56_30.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09a3e365-a903-4de1-bf71-c873bffbac13/screencapture-localhost-5173-register-2022-11-11-12_56_30.png)
+
+![login3](https://user-images.githubusercontent.com/88734409/201467048-fbed43cb-4d2b-4a9b-9bd4-f34772fc5541.png)
+
 
 Referenci : react-hook form
 
@@ -262,28 +265,33 @@ Buat halaman untuk mengubah foto profil dengan ketentuan sebagai berikut
     - Ketika logo camera di click maka user akan dialihkan ke page “ganti prfile”
     - Disini saya menggunaka useNavigate yang disediakan oleh react-router-dom package yang sudah saya install sebelumnya
     
-    ![home.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ee89d49-bdda-4cb3-be9e-34843c84c4f0/home.png)
+    ![home](https://user-images.githubusercontent.com/88734409/201467066-66f4e3e6-fca4-4f62-a233-053846102ce1.png)
+
     
     Berikut setelah user meng-click icon camera maka akan menjadi tampilan seperti gambar dibawah:
     
-    ![chage-profile.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/204e5a76-50a5-44a0-8a6f-3d5a1105e153/chage-profile.png)
+    ![chage-profile](https://user-images.githubusercontent.com/88734409/201467082-b4f4a37b-f850-48c9-bfff-9a3fd107a106.png)
+
     
     Saya membuat component navbar dengan nesting component menggunakan props, supaya navbar disetiap page bisa dimanis.
     
 2. Setelah user meng-click “Ambil Dari Camera” maka user akan dialihkan lagi ke page “Ambil Foto”
     
     
-    ![Screenshot (118).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f00d39fe-ee8b-4e5b-bde2-9a715026ccec/Screenshot_(118).png)
-    
+    ![shoot-foto](https://user-images.githubusercontent.com/88734409/201467099-2640f31b-9523-40ba-9c0a-8905fbec4e5f.png)
+
 
 Lalu ketika user mengambil foto, maka muncul halaman selanjutnya
 
-![Screenshot (119).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d74ba8ae-fbec-4f9c-8ec6-6afcf20c1375/Screenshot_(119).png)
+![save-foto](https://user-images.githubusercontent.com/88734409/201467134-b522c828-d2a8-4007-9527-f7ca388a3ae6.png)
+
 
 Ketika simpan akan dialihkan lagi untuk user bisa mengatur ukuran foto
 
-![Screenshot (120).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d5c8e15-45d3-463f-aed9-8cff980fca38/Screenshot_(120).png)
+![croop-foto](https://user-images.githubusercontent.com/88734409/201467149-2da952fd-e47d-4ef6-9aa7-964f1d580ca7.png)
+
 
 Maka foto user sudah di upload
 
-![Screenshot (121).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da667787-8b00-45d9-8527-5ae657a1781b/Screenshot_(121).png)
+![user-profile](https://user-images.githubusercontent.com/88734409/201467160-1a0d8fd3-ed23-4b97-aa59-5f0ce7959bc8.png)
+
